@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_user"
+        android:icon="@drawable/user_selector"
+        tools:ignore="MenuTitle">
+    </item>
+
+    <item
+        android:id="@+id/menu_browser"
+        android:icon="@drawable/browser_selector"
+        tools:ignore="MenuTitle">
+    </item>
+
+    <item
+        android:id="@+id/menu_rating"
+        android:icon="@drawable/rating_selector"
+        tools:ignore="MenuTitle">
+    </item>
+
+    <item
+        android:id="@+id/menu_stock"
+        android:icon="@drawable/stock_selector"
+        tools:ignore="MenuTitle">
+    </item>
+</menu>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen5">
+
+        <TextView
+            android:id="@+id/tv_s_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1."
+            android:gravity="center"
+            android:textColor="@color/colorWhite"/>
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_Logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/tv_s_no"
+            android:src="@mipmap/back"
+            android:paddingLeft="@dimen/dimen8"
+            android:textColor="@color/colorBlack"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_channel_name"
+            android:layout_toRightOf="@+id/iv_Logo"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:text="CNN News"
+            android:paddingLeft="@dimen/dimen8"
+            android:fontFamily="@font/montserrat_medium"
+            android:textColor="@color/colorWhite"/>
+
+<LinearLayout
+    android:id="@+id/ll_description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/iv_Logo"
+    android:layout_toRightOf="@+id/tv_s_no"
+    >
+
+<LinearLayout
+    android:layout_weight=".7"
+    android:layout_width="0dp"
+    android:layout_height="120dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/dimen12"
+        android:textColor="@color/colorWhite"
+        android:text="All Trump Adminitration witnesswill testify remotely at coronaviruses heasring this week"
+        />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_weight=".3"
+    android:layout_width="0dp"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="@dimen/dimen5"
+        app:cardElevation="@dimen/dimen1">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher_round"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
+
+   <!-- <androidx.cardview.widget.CardView
+        android:layout_weight=".3"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="@dimen/dimen1"
+        android:layout_marginRight="@dimen/dimen14"
+        >
+
+
+
+
+
+    </androidx.cardview.widget.CardView>-->
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_headlines"
+            android:layout_below="@+id/ll_description"
+            android:layout_toRightOf="@+id/tv_s_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="@dimen/dimen14"
+            android:text="headines :"
+            android:fontFamily="@font/montserrat_medium"
+
+            />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/hours"
+            android:layout_below="@+id/ll_description"
+            android:layout_toRightOf="@+id/tv_headlines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen14"
+            android:textColor="@color/colorWhite"
+            android:text=" 1 Hours agp"
+            android:fontFamily="@font/montserrat_medium"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_toRightOf="@+id/hours"
+            android:layout_below="@+id/ll_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/more"
+            android:layout_marginTop="@dimen/dimen14"
+            />
+
+
+    </RelativeLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height=".3dp"
+        android:layout_marginTop="@dimen/dimen1"
+        android:layout_marginLeft="@dimen/dimen5"
+        android:layout_marginRight="@dimen/dimen5"
+        android:background="@color/colorWhite"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Assignment_first</string>
+
+    <string name="fit">fit</string>
+    <string name="change">Change starts here </string>
+    <string name="or">or</string>
+    <string name="create_account_text">Create an account to get your personalized training &amp; nutrition program! </string>
+    <string name="with_email">Continue with email</string>
+    <string name="with_apple">Continue with Apple</string>
+    <string name="with_fb">Continue with Facebook</string>
+    <string name="with_google">Continue with Google</string>
+    <string name="create_account">Already have an account? </string>
+    <string name="sing_in">SIGN IN</string>
+
+
+    <!-- SIGN UP SCREEN-->
+    <string name="sign_up">Sign up</string>
+    <string name="name">Name </string>
+    <string name="enter_name">Enter your Name </string>
+    <string name="email">Email </string>
+    <string name="pass">Paswword </string>
+    <string name="update">I want 8fit updates, recipes, workouts and lifestyle tips straight to my inbox. </string>
+    <string name="terms"> *     I agree to 8fit \ s Terms  of Services and Privacy  Policy </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>
